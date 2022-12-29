@@ -1,3 +1,5 @@
+export const myTodos = [];
+
 export default class Todo {
   constructor(name, due, cat) {
     this.name = name;
@@ -6,6 +8,6 @@ export default class Todo {
   }
 
   save() {
-    console.log(this);
+    myTodos.push(this);
   }
 }

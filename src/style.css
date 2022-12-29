@@ -1,0 +1,31 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+}
+
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header{
+    border: 1px solid red;    
+}
+.left-panel{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+#add-new{
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-view{
+    border: 1px solid red
+}
