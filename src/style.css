@@ -2,6 +2,9 @@ body{
     height: 95vh;
     width: 95vw;
     display: flex;
+    background-color: rgba(255, 239, 239, 0.473);
+    position: relative;
+
 }
 
 #main-container{
@@ -12,10 +15,8 @@ body{
 }
 
 .header{
-    border: 1px solid red;    
 }
 .left-panel{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -27,5 +28,61 @@ body{
     align-items: center;
 }
 .main-view{
-    border: 1px solid red
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
 }
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(213, 216, 252);
+    height: auto;
+    min-height: 15%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: 4%;
+    border-bottom: 3px solid rgb(95, 95, 95);
+}
+.todo-name{
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+}
+.todo-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-self: center;
+    align-self: center;
+}
+
+.tools{
+    align-self: flex-end;
+    justify-self: flex-end;
+    text-align: center;
+}
+
+.modal{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  width: 450px;
+  padding: 1.3rem;
+  min-height: 250px;
+  position: absolute;
+  top: 20%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+
+}
+.hidden {
+    display: none;
+  }
+  
