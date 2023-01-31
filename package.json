@@ -24,9 +24,9 @@
   "homepage": "https://github.com/TahaJumaah/to-do-list#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
-    "eslint": "^8.30.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.1",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
